@@ -1,0 +1,54 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(184, 179, 179);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: hsl(0, 0%, 98%);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+
+}
+
+th[scope="row"], #name {
+  border-right: 2px solid black ;
+}
+
+th[scope="row"], #name {
+  border-left: 2px solid black ;
+}
+
+#name {
+  border-top: 2px solid black;
+}
+
+#pluto {
+  border-bottom: 2px solid black;
+}
+
+
